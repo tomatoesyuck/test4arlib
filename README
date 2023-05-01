@@ -17,3 +17,6 @@ source myenv/bin/activate
 
 4 -- STOP VENV
 deactivate
+
+
+git pull --rebase origin main
