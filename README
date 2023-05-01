@@ -1,0 +1,19 @@
+1 -- VENV STUFF
+WINDOWS:
+python -m venv myenv
+myenv\Scripts\activate
+
+MACOS:
+python3 -m venv myenv
+source myenv/bin/activate
+
+2 -- INSTALL
+
+pip install -r requirements.txt
+
+
+3 -- START VENV
+source myenv/bin/activate
+
+4 -- STOP VENV
+deactivate
