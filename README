@@ -11,12 +11,23 @@ source myenv/bin/activate
 
 pip install -r requirements.txt
 
-
 3 -- START VENV
 source myenv/bin/activate
 
 4 -- STOP VENV
 deactivate
 
+---SUPERUSER for when you go localhost:8000/admin
+user: test
+pass: test
+(not creative, i know thanks)
 
 git pull --rebase origin main
+
+RESOURCES I USED TO IMPLEMENT GOOGLE AUTH:
+https://www.digitalocean.com/community/tutorials/how-to-authenticate-django-apps-using-django-allauth
+
+theres a great image on this page showing the flow of authentication: https://www.hacksoft.io/blog/google-oauth2-with-django-react-part-1
+another flow image ehruidfjk: https://episyche.com/blog/how-to-configure-google-sso-in-django-rest-framework-with-react
+
+tutorial i followed for the frontend to work: https://blog.logrocket.com/guide-adding-google-login-react-app/
