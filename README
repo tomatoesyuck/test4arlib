@@ -11,12 +11,18 @@ source myenv/bin/activate
 cd backend
 pip install -r requirements.txt
 
-****\_\_\_\_**** OTHER COMMANDS
+!! OTHER COMMANDS
 -- START VENV
 source myenv/bin/activate
 
 -- STOP VENV
 deactivate
+
+-- IF FRONT END NEED DEPDENCIES IN THE BEGINNING, DO
+yarn
+
+-- STARTING FRONTEND
+yarn start
 
 ---SUPERUSER for when you go localhost:8000/admin
 user: test
