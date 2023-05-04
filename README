@@ -1,3 +1,7 @@
+(delete the myenv folder before proceeding pls, thanks)
+
+tasks: https://docs.google.com/document/d/1l4042pvM1hyVcgFehPWMndJWrhuAcQlfXOYdNwWxhSo/edit?usp=sharing
+
 1 -- VENV STUFF
 WINDOWS:
 python -m venv myenv
@@ -17,6 +21,10 @@ source myenv/bin/activate
 
 -- STOP VENV
 deactivate
+
+-- START BACKEND
+cd into backend/config
+python manage.py runserver (make sure ur venv is running)
 
 -- IF FRONT END NEED DEPDENCIES IN THE BEGINNING, DO
 yarn
